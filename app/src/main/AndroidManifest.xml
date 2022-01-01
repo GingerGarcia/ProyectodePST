@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoDePST">
         <activity
+            android:name=".Activity_5"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_4"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_3"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_2"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
