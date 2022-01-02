@@ -52,19 +52,21 @@
         android:layout_marginTop="44dp"
         android:ems="10"
         android:hint="Password"
+        android:hintTextColor="#5D4037"
         android:inputType="textPersonName"
         android:textColorHint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/login"
         android:layout_width="201dp"
         android:layout_height="51dp"
         android:layout_marginTop="100dp"
         android:fontFamily="sans-serif-black"
-        android:text="LOG IN"
+        android:text="@string/log_in"
         android:textColor="#000000"
         app:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,13 +79,13 @@
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-black"
-        android:text="SIGN UP"
+        android:text="@string/sign_up"
         android:textColor="#000000"
         app:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/login"
         app:layout_constraintVertical_bias="0.17" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
