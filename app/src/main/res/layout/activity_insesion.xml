@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/Background" />
 
     <ImageView
@@ -33,46 +33,57 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="284dp"
         android:layout_height="52dp"
+        android:layout_marginTop="48dp"
         android:ems="10"
         android:hint="User Name"
         android:inputType="textPersonName"
         android:singleLine="false"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="293dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="278dp"
-        android:layout_height="43dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPersonName"
         android:textColorHint="#FFFFFF"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="397dp" />
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="201dp"
         android:layout_height="51dp"
+        android:layout_marginTop="100dp"
         android:fontFamily="sans-serif-black"
         android:text="LOG IN"
         android:textColor="#000000"
         app:backgroundTint="#FFFFFF"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="529dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="205dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-black"
         android:text="SIGN UP"
         android:textColor="#000000"
         app:backgroundTint="#FFFFFF"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="595dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.17" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
