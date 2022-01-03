@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
     // Metodo del botón Start
     public void start(View view){
-        Intent siguiente = new Intent(this,Activity_2.class);
+        Intent siguiente = new Intent(this,insesion.class);
         startActivity(siguiente);
     }
 }
