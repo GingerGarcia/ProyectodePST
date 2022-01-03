@@ -29,7 +29,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/etPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/etcorreo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
@@ -55,10 +55,10 @@
         android:minHeight="48dp"
         android:textColorHint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/etusernameregistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
@@ -69,10 +69,10 @@
         android:minHeight="48dp"
         android:textColorHint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/etcorreo" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/etpasswordregistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
@@ -83,7 +83,7 @@
         android:minHeight="48dp"
         android:textColorHint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/etusernameregistro" />
 
     <Button
         android:id="@+id/button4"
@@ -95,7 +95,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
+        app:layout_constraintTop_toBottomOf="@+id/etpasswordregistro"
         app:layout_constraintVertical_bias="0.436" />
 
     <ImageView

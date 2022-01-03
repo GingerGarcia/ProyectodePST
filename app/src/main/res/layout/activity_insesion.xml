@@ -31,7 +31,7 @@
         tools:ignore="ImageContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etUsername"
         android:layout_width="284dp"
         android:layout_height="52dp"
         android:layout_marginTop="48dp"
@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/etPassword"
         android:layout_width="278dp"
         android:layout_height="48dp"
         android:layout_marginTop="44dp"
@@ -58,7 +58,7 @@
         android:textColorHint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/etUsername"
         tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <Button
@@ -72,7 +72,7 @@
         app:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <Button
         android:id="@+id/button4"
